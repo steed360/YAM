@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+</script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").toggle("fast");
+  });
+});
+</script>
+ 
+<link rel="stylesheet" type="text/css" href="flip.css"/>
+</head>
+<body>
+ 
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Hello world!</div>
+
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Hello world!</div>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<title>YAM Smart Meals</title>
+<html>
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.9/jquery.js"></script>
+<script> 
+
+$(document).ready(function(){
+  $("#ingredient_search_panel_title").click(function(){
+    $("#ingredient_search_panel").slideToggle("slow");
+  });
+});
+
+</script>
+<link rel="stylesheet" type="text/css" href="yam.css"/>
+
+</head>
+<body>
+
+<div id="flip"> 
+yo
+</div>
+
+
+<div id="panel"> 
+panel
+</div>
+
+<!--
+<div id="mainWindow">
+    <div id="topnav">
+        <div id="topnavmenu">
+            <a class="topnav" href="#">HOME</a>
+            <a class="topnav" href="#">MEALS</a>
+            <a class="topnav" href="#">RECIPES</a>
+            <a class="topnav" href="#">INGREDIENTS</a>
+        </div>
+        <div id="topnavlogo">
+             <h1><strong>YAM</strong></h1>
+        </div>
+    </div>
+    <div id="recipepanel">
+        <div id="recipepaneltitle">
+            <h2>Stir Fried Beans With Egg</h2>
+        </div>
+
+        <div id="ingredient_search_panel_title">
+            <h2>search</h2>
+        </div>
+        <div id="ingredient_search_panel">
+            <h2>enter text</h2>
+        </div>
+<!--
+
+    </div>
+</div>
+-->
+</body>
+</html>
+

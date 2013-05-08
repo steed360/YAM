@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+
+<form action="/add/" method="POST">
+
+<input type="hidden" name="recipeID" value={{recipeID}}>
+<input name="quantity" >
+<select name="containedIngredientID">
+{% for thisCI in containedIngredients %}
+   <option value={{thisCI.id}}>
+        {{ thisCI.containerMeasure.name }}
+        {{ thisCI.basicIngredient.name }}
+        ({{ thisCI.ingredientState.state }})
+    </option>
+{% endfor %}
+</select>
+
+<input type="Submit">
+</form>
+
+</body>
+</html>
+

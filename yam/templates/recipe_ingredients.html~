@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+{% for recipeIngredient in recipeIngredient_set %}
+    <li>
+        {{ recipeIngredient.quantity }}
+        {{ recipeIngredient.containedIngredient.containerMeasure }}
+        {{ recipeIngredient.containedIngredient.basicIngredient }}
+        {{ recipeIngredient.containedIngredient.ingredientState }}
+    </li>
+{% endfor %}
+</body>
+</html>
+
